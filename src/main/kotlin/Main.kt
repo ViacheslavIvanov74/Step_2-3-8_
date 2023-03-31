@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
     var bug = SugarStorage()
     bug.volume = 100
     println(bug.volume)
-    bug.decreaseSugar(20)
+    bug.decreaseSugar(-20)
     println(bug.volume)
     bug.increaseSugar(-50)
     println(bug.volume)
